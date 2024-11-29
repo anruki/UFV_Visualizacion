@@ -1,0 +1,21 @@
+## PRÁCTICA POWERBI
+1.	Se quiere visualizar los atributos más relevantes de cada producto (origen, marca.. ) pudiendo filtrar los productos por cada uno de estos campos, pero también por ingredientes para poder saber que productos contienen un ingrediente concreto.
+
+-	Selector de productos, al seleccionar un producto se mostrará su origen (rojo para competidor, verde para Puig), marca, tipo y un gráfico de tarta con el % de cada ingrediente.
+-	Selector de ingredientes, al seleccionar un ingrediente se mostrarán los productos que lo llevan.
+
+
+2.	Se quiere visualizar la distribución de cada dimensión categórica pudiendo elegir dinámicamente la dimensión representada
+(sugerencia: usa un parámetro)
+-	Utilizar un gráfico de distribución para cada dimensión.
+
+3.	Se quiere visualizar el perfil sensorial de uno o varios productos
+Bonus (nivel 3): hay visuals que no vienen por defecto, pero los puedes descargar gratuitamente. Prueba varios
+-	Utilizar un gráfico de araña con los ‘stats’ como vértices (oilyRes, smoothness,…).
+-	Comparar los stats de los productos de Puig vs los productos de competidores (en un gráfico de araña 2 líneas)
+-	Utilizar gráfico de dispersión con características de cada producto.
+4.	¿Cuáles son los ingredientes más comunes para los 20 productos más aceptados en cada país?
+-	Hacer un tree map con cada ingrediente en un cuadrante cuyo tamaño y color dependen del nº de productos que contiene cada ingrediente.
+
+5.	¿Cuál es el ingrediente conservante más utilizado por categoría (dinámico) de producto?
+-	Agrupar los productos por categorías y hacer para cada una una barra de un gráfico de barras segmentadas por ingredientes. El tamaño del segmento depende del nº de productos que usen ese ingrediente y el segmento mayor será el del ingrediente más utilizado.
